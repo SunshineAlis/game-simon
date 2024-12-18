@@ -1,0 +1,98 @@
+/* Ерөнхий тохиргоо */
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #d6f2e3; /* Дэвсгэр өнгө */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#game-container {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  background-color: #b8e6cf; /* Ногоон өнгө */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.animal {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.animal:hover {
+  transform: scale(1.1);
+}
+.animal img {
+  width: 80%;
+  height: auto;
+}
+/* Ерөнхий тохиргоо  buttonuudin tclass*/
+.button body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7e9;
+}
+/* Ногоон дэвсгэр
+*/
+#app {
+  padding: 10px;
+}
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e0f7e9;
+}
+/* Нот дүрс ба тоо */
+.score {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.note {
+  font-size: 24px;
+  color: #15274a;
+  margin-right: 5px;
+}
+.number {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+/* Дугуй товчлуурууд */
+.circle-button {
+  width: 50px;
+  height: 50px;
+  background-color: #005f3b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.circle-button:hover {
+  transform: scale(1.1);
+}
+.circle-button img {
+  width: 60%;
+  height: auto;
+}
