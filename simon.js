@@ -24,7 +24,7 @@
 const gameContainer = document.getElementById("game-container");
 // Дүрснүүдийн мэдээлэл
 const animals = [
-  { name: "bird", image: "123.gif", x: 20, y: 50 },
+  { name: "dove", image: "happy dove.avif", x: 20, y: 50 },
   { name: "elephant", image: "elephant.png", x: 120, y: 20 },
   { name: "monkey", image: "monkey.gif", x: 230, y: 100 },
   { name: "rabbit", image: "rabbit1.gif", x: 120, y: 150 },
