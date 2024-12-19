@@ -24,10 +24,10 @@
 const gameContainer = document.getElementById("game-container");
 // Дүрснүүдийн мэдээлэл
 const animals = [
-  { name: "dove", image: "dove.png", x: 100, y: -110},
-  { name: "elephant", image: "elephant.png", x: 100, y: 250 },
-  { name: "monkey", image: "monkey.gif", x: 100, y: 130 },
-  { name: "rabbit", image: "rabbit1.gif", x: 100, y: 10},
+  { name: "dove", image: "dove.png", x: 270, y: -150 },
+  { name: "rabbit", image: "rabbit1.gif", x: 270, y: 40 },
+  { name: "monkey", image: "monkey.gif", x: 270, y: 230 },
+  { name: "elephant", image: "elephant.png", x: 270, y: 420 },
 ];
 // Дүрснүүдийг үүсгэж, байрлуулах функц
 function createAnimals() {
@@ -55,39 +55,39 @@ createAnimals();
 
 // //deed talin 3 tovch
 
-// // Элементүүд нэмэх үндсэн container
-// const app = document.querySelector(".app");
-// // Top Controls Wrapper
-// const topControls = document.createElement("div");
-// topControls.className = "top-controls";
-// // Нот дүрс ба тоо хэсэг
-// const scoreDiv = document.createElement("div");
-// scoreDiv.className = "score";
-// const noteSpan = document.createElement("span");
-// noteSpan.className = "note";
-// noteSpan.innerHTML = "&#9835;"; // Нот дүрс
-// const numberSpan = document.createElement("span");
-// numberSpan.className = "number";
-// numberSpan.textContent = "0";
-// scoreDiv.appendChild(noteSpan);
-// scoreDiv.appendChild(numberSpan);
-// // Дуу товч (Sound Button)
-// const soundButton = document.createElement("div");
-// soundButton.className = "circle-button sound-button";
-// const soundIcon = document.createElement("img");
-// soundIcon.src = "sound-icon.png"; // Дуу дүрсний зам
-// soundIcon.alt = "Sound";
-// soundButton.appendChild(soundIcon);
-// // Хаах товч (Close Button)
-// const closeButton = document.createElement("div");
-// closeButton.className = "circle-button close-button";
-// const closeIcon = document.createElement("img");
-// closeIcon.src = "close-icon.png"; // Хаах дүрсний зам
-// closeIcon.alt = "Close";
-// closeButton.appendChild(closeIcon);
-// // Бүх элементийг wrapper-д нэмэх
-// topControls.appendChild(scoreDiv);
-// topControls.appendChild(soundButton);
-// topControls.appendChild(closeButton);
-// // Бүх topControls-ийг app руу нэмэх
-// app.appendChild(topControls);
+ // Элементүүд нэмэх үндсэн container
+ const app = document.querySelector(".app");
+// Top Controls Wrapper
+const topControls = document.createElement("div");
+ topControls.className = "top-controls";
+// Нот дүрс ба тоо хэсэг
+ const scoreDiv = document.createElement("div");
+ scoreDiv.className = "score";
+ const noteSpan = document.createElement("span");
+ noteSpan.className = "note";
+ noteSpan.innerHTML = "&#9835;"; // Нот дүрс
+ const numberSpan = document.createElement("span");
+ numberSpan.className = "number";
+ numberSpan.textContent = "0";
+scoreDiv.appendChild(noteSpan);
+ scoreDiv.appendChild(numberSpan);
+ // Дуу товч (Sound Button)
+const soundButton = document.createElement("div");
+ soundButton.className = "circle-button sound-button";
+ const soundIcon = document.createElement("img");
+ soundIcon.src = "sound-icon.png"; // Дуу дүрсний зам
+ soundIcon.alt = "Sound";
+ soundButton.appendChild(soundIcon);
+ // Хаах товч (Close Button)
+ const closeButton = document.createElement("div");
+ closeButton.className = "circle-button close-button";
+ const closeIcon = document.createElement("img");
+ closeIcon.src = "close-icon.png"; // Хаах дүрсний зам
+ closeIcon.alt = "Close";
+ closeButton.appendChild(closeIcon);
+ // Бүх элементийг wrapper-д нэмэх
+ topControls.appendChild(scoreDiv);
+ topControls.appendChild(soundButton);
+ topControls.appendChild(closeButton);
+ // Бүх topControls-ийг app руу нэмэх
+ app.appendChild(topControls);
