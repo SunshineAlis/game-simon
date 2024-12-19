@@ -24,10 +24,10 @@
 const gameContainer = document.getElementById("game-container");
 // Дүрснүүдийн мэдээлэл
 const animals = [
-  { name: "dove", image: "happy dove.avif", x: 20, y: 50 },
-  { name: "elephant", image: "elephant.png", x: 120, y: 20 },
-  { name: "monkey", image: "monkey.gif", x: 230, y: 100 },
-  { name: "rabbit", image: "rabbit1.gif", x: 120, y: 150 },
+  { name: "dove", image: "dove.png", x: 100, y: -110},
+  { name: "elephant", image: "elephant.png", x: 100, y: 250 },
+  { name: "monkey", image: "monkey.gif", x: 100, y: 130 },
+  { name: "rabbit", image: "rabbit1.gif", x: 100, y: 10},
 ];
 // Дүрснүүдийг үүсгэж, байрлуулах функц
 function createAnimals() {
