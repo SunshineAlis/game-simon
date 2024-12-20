@@ -8,13 +8,18 @@
   justify-content: center;
 
   margin: auto;
-  top:300px;
+  top:5%;
   
 }
 #game-container {
   position: relative;
-  width: 30%;
-  height: 800px;
+  background-image: url(apple.jpg);
+  background-size: 100%;
+  background-position: center 50px;
+  background-repeat: no-repeat;
+  margin:auto;
+  width: 100%;
+  aspect-ratio: 1/2;
   /* background-color: #afe0c2; */
   background-position: center;
   /* Ногоон өнгө */
@@ -26,11 +31,10 @@
 }
 .animal {
   position: absolute;
-  width: 25%;
-  height: 21%;
+  width: 15%;
+  height: 10%;
   border-radius: 50%;
   background-color: #a1ceb2;
-  margin-top: 25%;
 display:flex;
 justify-content: center;
 align-items: center;
@@ -53,49 +57,58 @@ align-items: center;
   font-family: Arial, sans-serif;
   background-color: #e0f7e9;
 }
-/* Ногоон дэвсгэр
-*/
-#app {
-  padding: 10px;
-}
+
 .top-controls {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 20px 30px;
   background-color: rgba(0, 0, 0, 0.2);
   width:90%;
   position: relative;
-  height:35px;
-  top:100px
+  height:7%;
+  top:20%;
+  margin:auto;
 
 }
 /* Нот дүрс ба тоо */
 .score {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #ffffff;
   border-radius: 20px;
-  padding: 5px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  position:absolute;
+  position: absolute;
   left: 20%;
-  height:35px;
+  aspect-ratio: 1/0.6;
+  width:9%;
+  top:30%;
 }
 .note {
-  font-size: 40px;
+  font-size: 300%;
   color: #15274a;
   margin-right: 5px;
 }
 .number {
-  font-size: 28px;
+  font-size: 200%;
   font-weight: bold;
-  color: black;
+  color: #15274a;
+  padding:5%;
+}
+.soundIcon{width: 10%;
+  height: 25%;
+  background-color: #bcdb40;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 /* Дугуй товчлуурууд */
 .circle-button {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  aspect-ratio: 1/1.2;
   background-color: #bcdb40;
   border-radius: 50%;
   display: flex;
@@ -109,28 +122,27 @@ align-items: center;
   transform: scale(1.1);
 }
 .circle-button img {
-  width: 60%;
+  width: 40%;
   height: auto;
 }
-.soundCloseStyle{
+.soundClose{
   display:flex;
-  justify-content:space-between;
+  gap:15%;
   position:absolute;
-   left: 75%;
+   left: 80%;
 
 }
 .startButton{
-  width:150px;
-  height:80px;
+  width:15%;
+  height:3%;
   background-color: rgb(131, 224, 38);
-  font-size: 40px;
+  font-size: 300%;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   position:absolute;
-  bottom:-30%;
-  left:45%;
+  bottom:20%;
+  left:40%;
   font-weight: 300;
-
 }
