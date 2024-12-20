@@ -128,9 +128,9 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-position:absolute;
-bottom:-30%;
-left:45%;
-font-weight: 300;
+  position:absolute;
+  bottom:-30%;
+  left:45%;
+  font-weight: 300;
 
 }
